@@ -44,12 +44,17 @@ Draw out the truth table for NAND, then it will be very easy.
 
 ![XorGate_Achievement](https://user-images.githubusercontent.com/64894558/145150112-87c4bb3f-9c63-4240-873c-b4413e190d66.png)
 
-#### Double Trouble
-A circuit that output 1 when more than 2 of the inputs are 1
+#### Bigger OR Gate
+Just bigger.
 
-![DoubleTrouble](https://user-images.githubusercontent.com/64894558/144798690-397dec03-702e-4d92-a5c4-62874ba965a4.png)
+![BiggerOrGate](https://user-images.githubusercontent.com/64894558/145150874-61f46e46-f3fd-4290-873e-42bf70257790.png)
 
-#### 3-8 Decoder
-3-8 Decoder using not gates and 3-input and gates
+#### Bigger AND Gate
+Still, just bigger.
 
-![3-8Decoder](https://user-images.githubusercontent.com/64894558/144799076-93dac7aa-3c14-4792-ba87-bc2f43bdc505.png)
+![BiggerAndGate](https://user-images.githubusercontent.com/64894558/145150878-de74315c-48ed-4aa8-a361-00dd60f64123.png)
+
+#### Xnor Gate
+Complement of XOR.
+
+![XnorGate](https://user-images.githubusercontent.com/64894558/145150879-4b19f061-44e6-4eff-950e-35c07af9bcf2.png)
