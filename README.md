@@ -58,3 +58,64 @@ Still, just bigger.
 Complement of XOR.
 
 ![XnorGate](https://user-images.githubusercontent.com/64894558/145150879-4b19f061-44e6-4eff-950e-35c07af9bcf2.png)
+
+
+
+
+
+
+Double Trouble
+
+Odd Number of Signals
+
+Counting Signals
+
+Half Adder
+
+Double the Number 
+
+Full Adder
+
+Tangled Gates
+
+Byte Or
+Perform bitwise OR.
+
+
+Byte Not
+Invert the value in each bit position.
+
+Adding Bytes
+Adding each bit together and in each calculation, include the carry out from previous bit position each time.
+
+Saving Gracefully
+
+Switch
+
+
+Bit Inverter
+If you look at the desired output, you will find that it's just the behavior of an XOR gate.
+
+Input Selector
+
+Signed Negator
+
+Saving Bytes
+
+1 Bit Decoder
+Use a NOT gate to output only one 1 at a time.
+
+
+3 Bit Decoder
+Similar idea as 1 Bit Decoder, only one output is active at a time corresponding to the value from the input.
+
+
+One Way
+
+Little Box
+
+Counter
+
+
+
+
