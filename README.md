@@ -105,7 +105,6 @@ Bitwise OR
 
 ![ByteOr](https://user-images.githubusercontent.com/64894558/145280281-909c4f5b-f0f8-4367-beb3-0d034a6ce921.png)
 
-
 #### Byte Not
 Bitwise NOT
 
@@ -147,22 +146,28 @@ A simple register
 ![SavingBytes](https://user-images.githubusercontent.com/64894558/145280424-fd670c45-21e0-4cb5-9efe-a637e81e413d.png)
 
 #### 1 Bit Decoder
-Use a NOT gate to output only one 1 at a time.
+A 1 to 2 decoder
+
 ![1BitDecoder](https://user-images.githubusercontent.com/64894558/145280439-724cee2b-8079-4172-b7c6-6255553d09d2.png)
 
-
 #### 3 Bit Decoder
-Similar idea as 1 Bit Decoder, only one output is active at a time corresponding to the value from the input.
+A 3 to 8 decoder
+
 ![3BitDecoder](https://user-images.githubusercontent.com/64894558/145280450-fd045173-7d8d-45b8-822b-dc6fbaabb424.png)
 
-
 #### One Way
+A buffer
+
 ![OneWay](https://user-images.githubusercontent.com/64894558/145280464-5b876ce7-dd61-425c-95ce-73beca9b48ac.png)
 
 #### Little Box
+4-Byte SRAM
+
 ![LittleBox](https://user-images.githubusercontent.com/64894558/145280476-919afe6b-098f-4530-a0fd-fa3b9576881b.png)
 
 #### Counter
+A counter that will increment one when tickled, or overwrite the value from input if _overwrite_ is asserted
+
 ![Counter](https://user-images.githubusercontent.com/64894558/145280488-4eec511e-f952-48f8-be14-f83978de14c7.png)
 
 
