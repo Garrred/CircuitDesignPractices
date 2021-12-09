@@ -1,6 +1,32 @@
 # CPU Architecture
 
 
+## Turing Complete
+### _This is the final circuit. Scroll down to see the structure of light blue components used in it._
+
+A processing unit that can execute instructions.  
+
+Functionalities:  
+Read instruction from memory and execute them.  
+Can store values and read from input && write to output.  
+Can perform OR AND, NOR, AND, addition, subtraction.  
+Dudge if condition is met to perform Jump.
+Can transfer value between registers.  
+
+Components:  
+Program Counter:  
+Point to next instruction in memory after execution unless overwrriten (jump).  
+Instruction Byte:  
+IB[7-6] -> operation  
+00 -> read immediate value from input and store in register 0  
+01 -> perform ALU computation with values in register 1 and 2  
+10 -> copy from source to destination:  
+    IB[5-3] -> source register/input  
+    IB[2-0] -> destination register/output  
+11 -> dudge if condition is met to perform Jump
+
+![TuringComplete](https://user-images.githubusercontent.com/64894558/145481857-c7e2c59e-8f89-4da0-8133-64800e690bf8.png)
+
 ### Arithmetic Engine
 An ALU that can perform 6 types of instructions on two bytes of input:  
 000 OR  
